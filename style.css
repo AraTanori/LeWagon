@@ -1,0 +1,75 @@
+/* Write some CSS below */
+body{
+	font-family: Roboto;
+	font-size: 18px;
+	color: rgb(30, 30, 30);
+	background-color: rgb(230, 230, 230);
+}
+
+h1,h2{
+	font-family: Hubballi;
+} 
+
+
+
+a{
+	color: #0D81C3;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	color: red;
+}
+
+div{
+	background-image: ;
+} 
+
+.boton{
+	background-color: #0D81C3;
+	color: white;
+	padding: 10px 15px;
+	border-radius: 2px;
+}
+
+
+.banner {
+	background-image: url(images/background.jpg);
+	background-size: cover;
+	color: white;
+	text-align: center;
+	padding: 100px 0px;
+}
+.banner h1{ font-size: 40px; }
+.banner p {
+	font-size: 24px;
+	opacity: 0.7;
+	margin-bottom: 40px;
+}
+
+.card-white{
+	background-color: white;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	padding: 18px;
+	border-radius: 3px;
+	margin: 8px;
+	text-align: center;
+}
+
+.container{
+	font-size: 30px;
+}
+.cards{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-row-gap: 1px;
+}
+
+
+.footer{
+	background-color: rgb(30, 30, 30);
+	color: white;
+	font-size: 18px;
+	text-align: center;
+}
